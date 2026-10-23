@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "nom": "A1",
+      "longueur": 12,
+      "limite_vitesse": 80,
+      "vehicules": [
+        {"identifiant": "V1", "position": 0, "vitesse": 30},
+        {"identifiant": "V2", "position": 2, "vitesse": 25}
+      ]
+    },
+    {
+      "nom": "B2",
+      "longueur": 16,
+      "limite_vitesse": 60,
+      "vehicules": [
+        {"identifiant": "V3", "position": 1, "vitesse": 20}
+      ]
+    },
+    {
+      "nom": "C3",
+      "longueur": 10,
+      "limite_vitesse": 50,
+      "vehicules": []
+    }
+  ],
+  "intersections": [
+    {"nom": "I1", "coordonnees": [0, 0]},
+    {"nom": "I2", "coordonnees": [5, 3]},
+    {"nom": "I3", "coordonnees": [10, 6]}
+  ]
+}
